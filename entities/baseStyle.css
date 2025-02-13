@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.sprite {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+
+    /*serve para impedir o drag da imagem*/
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -webkit-user-drag: none !important;
+    -khtml-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+.layer{
+    position:  absolute;
+    width: 100%;
+    height: 100%;
+}
