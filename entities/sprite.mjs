@@ -35,7 +35,4 @@ export class Sprite {
         this.HTMLelement.style.transform = "scaleX(1)";
         return null
     }
-    render() {
-        this.upl();
-    }
 }

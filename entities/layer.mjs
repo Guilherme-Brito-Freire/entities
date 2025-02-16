@@ -17,4 +17,7 @@ export class Layer{
     addClassToLayer(cssClass){
         this.HTMLelement.classList.add(cssClass);
     }
+    addIdToLayer(id){
+        this.HTMLelement.id = id; 
+    }
 }
