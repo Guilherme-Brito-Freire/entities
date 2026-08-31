@@ -1,0 +1,10 @@
+{
+    "typeAcquisition": {
+        "include": [
+            "jquery",
+            "entities/entities",
+            "entities/sprite",
+            "entities/vector"
+        ]
+    },
+}
